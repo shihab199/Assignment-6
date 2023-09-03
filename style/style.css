@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.error-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Button when it's clicked (active) */
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+    background-color: #FF1F3D;
+    color: white;
+    /* Add any other styles you want for the active state */
+}
+.btn.btn-primary:hover{
+    background-color: #FF1F3D;
+    color: white;
+}
+.btn{
+    cursor: pointer;
+}
+
